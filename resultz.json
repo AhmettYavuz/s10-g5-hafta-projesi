@@ -1,199 +1,22 @@
 {
   "numTotalTestSuites": 1,
-  "numPassedTestSuites": 1,
-  "numFailedTestSuites": 0,
+  "numPassedTestSuites": 0,
+  "numFailedTestSuites": 1,
   "numPendingTestSuites": 0,
-  "numTotalTests": 11,
+  "numTotalTests": 0,
   "numPassedTests": 0,
-  "numFailedTests": 11,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
   "startTime": 1714909845412,
   "success": false,
   "testResults": [
     {
-      "assertionResults": [
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " store/actions/index.js dosyası oluşturulmuş",
-          "status": "failed",
-          "title": "store/actions/index.js dosyası oluşturulmuş",
-          "duration": 13,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
-          "status": "failed",
-          "title": "Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Yeni not ekleniyor",
-          "status": "failed",
-          "title": "Yeni not ekleniyor",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " react-toastify App.jsxde eklenmiş",
-          "status": "failed",
-          "title": "react-toastify App.jsxde eklenmiş",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " react-toastify css dosyası unutulmamış",
-          "status": "failed",
-          "title": "react-toastify css dosyası unutulmamış",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
-          "status": "failed",
-          "title": "Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Not ekledikten sonra LocalStorageı güncelliyor",
-          "status": "failed",
-          "title": "Not ekledikten sonra LocalStorageı güncelliyor",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
-          "status": "failed",
-          "title": "idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Bu notu sil butonu ile not siliniyor",
-          "status": "failed",
-          "title": "Bu notu sil butonu ile not siliniyor",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " No silinince doğru metin ile toast mesajı görüntüleniyor",
-          "status": "failed",
-          "title": "No silinince doğru metin ile toast mesajı görüntüleniyor",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        },
-        {
-          "ancestorTitles": [
-            ""
-          ],
-          "fullName": " Not silindikten sonra LocalStorageı güncelliyor",
-          "status": "failed",
-          "title": "Not silindikten sonra LocalStorageı güncelliyor",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
-        }
-      ],
-      "startTime": 1714910756129,
-      "endTime": 1714910756157,
-      "status": "failed",
-      "message": "",
+      "assertionResults": [],
+      "startTime": 1714909845412,
+      "endTime": 1714909845412,
+      "status": "passed",
+      "message": "Cannot access 'baslangicDegerleri' before initialization",
       "name": "/Users/ahmet/Documents/GitHub/projects/s10-g5-hafta-projesi/src/__tests__/index.test.jsx"
     }
   ]

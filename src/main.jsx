@@ -5,9 +5,13 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 import "./index.css";
+import { Provider } from "react-redux";
+import { myStore } from "./store/store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <Provider store={myStore}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>
 );

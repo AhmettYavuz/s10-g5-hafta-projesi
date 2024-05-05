@@ -1,6 +1,24 @@
+import { act } from "react";
 import { NOTLARI_AL, NOT_EKLE, NOT_SIL } from "../actions";
+import { data } from "autoprefixer";
 
 const s10chLocalStorageKey = "s10d5";
+
+const initalState = baslangicNotlariniGetir(s10chLocalStorageKey);
+
+const reducers = (state = initalState, action) => {
+  switch (action.type) {
+    case NOTLARI_AL:
+      localStorageStateYaz(key, action.payload);
+      return { ...state, notlar: [...action.payload] };
+    case NOT_EKLE:
+      localStorageStateYaz(key, action.payload);
+      console.log("notlar123:", action.payload);
+      return { ...state, notlar: [...action.payload] };
+    default:
+      return state;
+  }
+};
 
 const baslangicDegerleri = {
   notlar: [],
@@ -24,3 +42,5 @@ function baslangicNotlariniGetir(key) {
     return baslangicDegerleri;
   }
 }
+
+export default reducers;
