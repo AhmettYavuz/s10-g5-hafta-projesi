@@ -1,22 +1,145 @@
 {
   "numTotalTestSuites": 1,
-  "numPassedTestSuites": 0,
-  "numFailedTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 0,
-  "numPassedTests": 0,
-  "numFailedTests": 0,
+  "numTotalTests": 11,
+  "numPassedTests": 9,
+  "numFailedTests": 2,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1714909845412,
+  "startTime": 1714929851070,
   "success": false,
   "testResults": [
     {
-      "assertionResults": [],
-      "startTime": 1714909845412,
-      "endTime": 1714909845412,
-      "status": "passed",
-      "message": "Cannot access 'baslangicDegerleri' before initialization",
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " store/actions/index.js dosyası oluşturulmuş",
+          "status": "passed",
+          "title": "store/actions/index.js dosyası oluşturulmuş",
+          "duration": 15,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
+          "status": "passed",
+          "title": "Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
+          "duration": 44,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni not ekleniyor",
+          "status": "passed",
+          "title": "Yeni not ekleniyor",
+          "duration": 162,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " react-toastify App.jsxde eklenmiş",
+          "status": "passed",
+          "title": "react-toastify App.jsxde eklenmiş",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " react-toastify css dosyası unutulmamış",
+          "status": "passed",
+          "title": "react-toastify css dosyası unutulmamış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
+          "status": "passed",
+          "title": "Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
+          "duration": 141,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Not ekledikten sonra LocalStorageı güncelliyor",
+          "status": "failed",
+          "title": "Not ekledikten sonra LocalStorageı güncelliyor",
+          "duration": 153,
+          "failureMessages": [
+            "Target cannot be null or undefined."
+          ],
+          "location": {
+            "line": 104,
+            "column": 60
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
+          "status": "passed",
+          "title": "idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
+          "duration": 26,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Bu notu sil butonu ile not siliniyor",
+          "status": "passed",
+          "title": "Bu notu sil butonu ile not siliniyor",
+          "duration": 22,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " No silinince doğru metin ile toast mesajı görüntüleniyor",
+          "status": "passed",
+          "title": "No silinince doğru metin ile toast mesajı görüntüleniyor",
+          "duration": 20,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Not silindikten sonra LocalStorageı güncelliyor",
+          "status": "failed",
+          "title": "Not silindikten sonra LocalStorageı güncelliyor",
+          "duration": 20,
+          "failureMessages": [
+            "Target cannot be null or undefined."
+          ],
+          "location": {
+            "line": 134,
+            "column": 60
+          }
+        }
+      ],
+      "startTime": 1714935746438,
+      "endTime": 1714935747052,
+      "status": "failed",
+      "message": "",
       "name": "/Users/ahmet/Documents/GitHub/projects/s10-g5-hafta-projesi/src/__tests__/index.test.jsx"
     }
   ]

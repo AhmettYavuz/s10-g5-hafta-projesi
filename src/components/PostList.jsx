@@ -9,9 +9,8 @@ const PostList = () => {
   useEffect(() => {
     dispatch(notlariAlAPI());
     console.log("effecte girdim");
-  }, [notlar]);
+  }, []);
 
-  console.log("notlar:", notlar);
   return notlar?.length === 0 ? (
     <div className="beyazKutu text-center p-6">Hiç notunuz yok</div>
   ) : (

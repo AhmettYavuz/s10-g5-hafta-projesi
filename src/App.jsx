@@ -2,6 +2,8 @@ import React from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Img = "https://i.ibb.co/Q63Mjq1/gratitude.jpg";
 
@@ -67,6 +69,7 @@ export default function App() {
           </div>
         </Route>
       </Switch>
+      <ToastContainer />
     </div>
   );
 }

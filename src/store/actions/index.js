@@ -1,4 +1,5 @@
 import axios from "axios";
+import { toast } from "react-toastify";
 
 export const NOT_EKLE = "NOT_EKLE";
 export const NOT_SIL = "NOT_SIL";
@@ -20,11 +21,12 @@ export const notEkleAPI = (yeniNot) => (dispatch) => {
     .post("https://nextgen-project.onrender.com/api/s10d5/gratitudes", yeniNot)
     .then((res) => {
       // res.data objesi içerisinden ihtiyaç duyduğun değeri bul ve oluşturduğun notEkle ile dispatch et (status codea dikkat)
-      console.log("notekle1:", res.data.body, "yenidata1:", yeniNot);
-      console.log("status:", res.status);
       if (res.status === 201) {
+        toast.success(
+          "Notun başarıyla kaydedildi. Güzelliklerle dolu bir gün dileğiyle...",
+          { autoClose: 2000 }
+        );
         dispatch(notEkle(res.data));
-        console.log("notekle:", res.data, "yenidata:", yeniNot);
       }
     })
     .catch((error) => console.log(error));
@@ -42,3 +44,20 @@ export const notlariAlAPI = () => (dispatch) => {
 };
 
 // notSilAPI buraya
+
+export const notSilAPI = (notId) => (dispatch) => {
+  axios
+    .delete(
+      `https://nextgen-project.onrender.com/api/s10d5/gratitudes/${notId}`
+    )
+    .then((res) => {
+      if (res.status === 200) {
+        toast.success("Notunuz silindi...", { autoClose: 2000 });
+        dispatch(notSil(notId));
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+      toast.warning("Bir hata oluştu!");
+    });
+};
