@@ -8,7 +8,7 @@
   "numFailedTests": 11,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1714906945952,
+  "startTime": 1714909845412,
   "success": false,
   "testResults": [
     {
@@ -20,12 +20,12 @@
           "fullName": " store/actions/index.js dosyası oluşturulmuş",
           "status": "failed",
           "title": "store/actions/index.js dosyası oluşturulmuş",
-          "duration": 43,
+          "duration": 13,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -36,12 +36,12 @@
           "fullName": " Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
           "status": "failed",
           "title": "Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
-          "duration": 3,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -57,7 +57,7 @@
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -73,7 +73,7 @@
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -84,12 +84,12 @@
           "fullName": " react-toastify css dosyası unutulmamış",
           "status": "failed",
           "title": "react-toastify css dosyası unutulmamış",
-          "duration": 4,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -105,7 +105,7 @@
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -121,7 +121,7 @@
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -132,12 +132,12 @@
           "fullName": " idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
           "status": "failed",
           "title": "idsi 1 olan mesaj silinince server hata dönüyor. Hata mesajı doğru metin ile ekranda görünüyor.",
-          "duration": 3,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -153,7 +153,7 @@
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -164,12 +164,12 @@
           "fullName": " No silinince doğru metin ile toast mesajı görüntüleniyor",
           "status": "failed",
           "title": "No silinince doğru metin ile toast mesajı görüntüleniyor",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         },
@@ -180,21 +180,21 @@
           "fullName": " Not silindikten sonra LocalStorageı güncelliyor",
           "status": "failed",
           "title": "Not silindikten sonra LocalStorageı güncelliyor",
-          "duration": 4,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
           "location": {
-            "line": 1076,
+            "line": 76,
             "column": 51
           }
         }
       ],
-      "startTime": 1714906948949,
-      "endTime": 1714906949017,
+      "startTime": 1714910756129,
+      "endTime": 1714910756157,
       "status": "failed",
       "message": "",
-      "name": "/home/projects/vitejs-vite-8j6ybm/src/__tests__/index.test.jsx"
+      "name": "/Users/ahmet/Documents/GitHub/projects/s10-g5-hafta-projesi/src/__tests__/index.test.jsx"
     }
   ]
 }

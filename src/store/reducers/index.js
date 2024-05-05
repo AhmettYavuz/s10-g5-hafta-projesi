@@ -1,6 +1,6 @@
-import { NOTLARI_AL, NOT_EKLE, NOT_SIL } from '../actions';
+import { NOTLARI_AL, NOT_EKLE, NOT_SIL } from "../actions";
 
-const s10chLocalStorageKey = 's10d5';
+const s10chLocalStorageKey = "s10d5";
 
 const baslangicDegerleri = {
   notlar: [],

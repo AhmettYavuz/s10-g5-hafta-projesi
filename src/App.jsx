@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch, Route, NavLink } from 'react-router-dom';
-import PostForm from './components/PostForm';
-import PostList from './components/PostList';
+import React from "react";
+import { Switch, Route, NavLink } from "react-router-dom";
+import PostForm from "./components/PostForm";
+import PostList from "./components/PostList";
 
-const Img = 'https://i.ibb.co/Q63Mjq1/gratitude.jpg';
+const Img = "https://i.ibb.co/Q63Mjq1/gratitude.jpg";
 
 export default function App() {
   return (
@@ -45,11 +45,11 @@ export default function App() {
                 </h1>
                 <p className="my-2">
                   Şükran günlüğü, kişinin hayatındaki olumlu şeylere
-                  odaklanması, minnettarlık ve şükran duygusunu hissetmesi
-                  için sık sık teşekkür ettiği şeyleri yazdığı bir tür
-                  günlüktür. Zihinsel iyi oluş için basit fakat oldukça etkili
-                  bir yöntemdir ve kişinin hayata pozitif bir bakış açısı
-                  geliştirmesine yardımcı olabilir.{' '}
+                  odaklanması, minnettarlık ve şükran duygusunu hissetmesi için
+                  sık sık teşekkür ettiği şeyleri yazdığı bir tür günlüktür.
+                  Zihinsel iyi oluş için basit fakat oldukça etkili bir
+                  yöntemdir ve kişinin hayata pozitif bir bakış açısı
+                  geliştirmesine yardımcı olabilir.{" "}
                 </p>
               </div>
             </div>

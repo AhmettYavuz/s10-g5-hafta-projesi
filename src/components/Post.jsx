@@ -1,6 +1,6 @@
-import React from 'react';
-import { formatDistanceToNow } from 'date-fns';
-import { tr } from 'date-fns/locale';
+import React from "react";
+import { formatDistanceToNow } from "date-fns";
+import { tr } from "date-fns/locale";
 
 export default function Post({ item }) {
   function handleSil() {
@@ -16,7 +16,7 @@ export default function Post({ item }) {
         })}
       </h1>
 
-      {item.body.split('|').map((li) => (
+      {item.body.split("|").map((li) => (
         <p className="mt-2" key={li}>
           - {li}
         </p>
