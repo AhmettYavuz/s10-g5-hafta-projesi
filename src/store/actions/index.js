@@ -52,8 +52,8 @@ export const notSilAPI = (notId) => (dispatch) => {
     )
     .then((res) => {
       if (res.status === 200) {
-        toast.success("Notunuz silindi...", { autoClose: 2000 });
         dispatch(notSil(notId));
+        toast.success("Notunuz silindi...", { autoClose: 2000 });
       }
     })
     .catch((error) => {

@@ -5,10 +5,10 @@ import { notlariAlAPI } from "../store/actions";
 
 const PostList = () => {
   const notlar = useSelector((store) => store.notlar);
+  console.log("notlar:", notlar);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(notlariAlAPI());
-    console.log("effecte girdim");
   }, []);
 
   return notlar?.length === 0 ? (

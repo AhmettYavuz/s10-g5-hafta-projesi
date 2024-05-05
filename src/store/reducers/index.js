@@ -30,18 +30,22 @@ function baslangicNotlariniGetir(key) {
 const initalState = baslangicNotlariniGetir(s10chLocalStorageKey);
 
 const reducers = (state = initalState, action) => {
+  console.log("ini:", initalState);
   switch (action.type) {
     case NOTLARI_AL:
       localStorageStateYaz(s10chLocalStorageKey, action.payload);
       return { ...state, notlar: [...action.payload] };
     case NOT_EKLE:
-      localStorageStateYaz(s10chLocalStorageKey, action.payload);
+      localStorageStateYaz(s10chLocalStorageKey, {
+        ...state,
+        notlar: [...state.notlar, action.payload],
+      });
       return { ...state, notlar: [...state.notlar, action.payload] };
     case NOT_SIL:
-      localStorageStateYaz(
-        s10chLocalStorageKey,
-        state.notlar.filter((not) => not.id !== action.payload)
-      );
+      localStorageStateYaz(s10chLocalStorageKey, {
+        ...state,
+        notlar: [...state.notlar.filter((not) => not.id !== action.payload)],
+      });
       return {
         ...state,
         notlar: [...state.notlar.filter((not) => not.id !== action.payload)],

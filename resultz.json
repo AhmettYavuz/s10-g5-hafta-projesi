@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 11,
-  "numPassedTests": 9,
-  "numFailedTests": 2,
+  "numPassedTests": 11,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
   "startTime": 1714929851070,
-  "success": false,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -20,7 +20,7 @@
           "fullName": " store/actions/index.js dosyası oluşturulmuş",
           "status": "passed",
           "title": "store/actions/index.js dosyası oluşturulmuş",
-          "duration": 15,
+          "duration": 79,
           "failureMessages": []
         },
         {
@@ -30,7 +30,7 @@
           "fullName": " Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
           "status": "passed",
           "title": "Tüm notlar sayfası açıldığında kayıtlı notları getiriyor.",
-          "duration": 44,
+          "duration": 82,
           "failureMessages": []
         },
         {
@@ -40,7 +40,7 @@
           "fullName": " Yeni not ekleniyor",
           "status": "passed",
           "title": "Yeni not ekleniyor",
-          "duration": 162,
+          "duration": 185,
           "failureMessages": []
         },
         {
@@ -50,7 +50,7 @@
           "fullName": " react-toastify App.jsxde eklenmiş",
           "status": "passed",
           "title": "react-toastify App.jsxde eklenmiş",
-          "duration": 5,
+          "duration": 7,
           "failureMessages": []
         },
         {
@@ -60,7 +60,7 @@
           "fullName": " react-toastify css dosyası unutulmamış",
           "status": "passed",
           "title": "react-toastify css dosyası unutulmamış",
-          "duration": 5,
+          "duration": 6,
           "failureMessages": []
         },
         {
@@ -70,7 +70,7 @@
           "fullName": " Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
           "status": "passed",
           "title": "Yeni not eklendiğinde doğru metin ile toast mesajı görüntüleniyor",
-          "duration": 141,
+          "duration": 145,
           "failureMessages": []
         },
         {
@@ -78,16 +78,10 @@
             ""
           ],
           "fullName": " Not ekledikten sonra LocalStorageı güncelliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Not ekledikten sonra LocalStorageı güncelliyor",
-          "duration": 153,
-          "failureMessages": [
-            "Target cannot be null or undefined."
-          ],
-          "location": {
-            "line": 104,
-            "column": 60
-          }
+          "duration": 134,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
@@ -106,7 +100,7 @@
           "fullName": " Bu notu sil butonu ile not siliniyor",
           "status": "passed",
           "title": "Bu notu sil butonu ile not siliniyor",
-          "duration": 22,
+          "duration": 21,
           "failureMessages": []
         },
         {
@@ -124,21 +118,15 @@
             ""
           ],
           "fullName": " Not silindikten sonra LocalStorageı güncelliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Not silindikten sonra LocalStorageı güncelliyor",
           "duration": 20,
-          "failureMessages": [
-            "Target cannot be null or undefined."
-          ],
-          "location": {
-            "line": 134,
-            "column": 60
-          }
+          "failureMessages": []
         }
       ],
-      "startTime": 1714935746438,
-      "endTime": 1714935747052,
-      "status": "failed",
+      "startTime": 1714937295707,
+      "endTime": 1714937296432,
+      "status": "passed",
       "message": "",
       "name": "/Users/ahmet/Documents/GitHub/projects/s10-g5-hafta-projesi/src/__tests__/index.test.jsx"
     }
